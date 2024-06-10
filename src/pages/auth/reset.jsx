@@ -1,12 +1,12 @@
 import logoname from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
-function ForgotPasswordPage() {
+function ResetPasswordPage() {
   return (
     <main className="overlay">
       <div className="container forgot">
         <img src={logoname} alt="" />
-        <h1>Forgot Password</h1>
+        <h1>Reset Password</h1>
         <form id="forgot-password-form">
           <fieldset>
             <label htmlFor="email-or-phone">
@@ -28,4 +28,4 @@ function ForgotPasswordPage() {
   );
 }
 
-export default ForgotPasswordPage;
+export default ResetPasswordPage;

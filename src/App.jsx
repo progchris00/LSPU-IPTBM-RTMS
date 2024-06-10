@@ -1,22 +1,30 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Home from "./pages/home";
-import Login from "./pages/auth/login";
-import SignUp from "./pages/auth/signup";
-import Forgot from "./pages/auth/forgot-password";
-import Error from "./pages/error";
+// Pages
+import HomePage from "./pages/home";
+import ErrorPage from "./pages/error";
+
+// Authentication Pages
+import LoginPage from "./pages/auth/login";
+import SignUpPage from "./pages/auth/signup";
+import ForgotPasswordPage from "./pages/auth/forgot-password";
+import ResetPasswordPage from "./pages/auth/reset";
 
 function App() {
   return (
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/auth/login" element={<Login />} />
-          <Route path="/auth/sign-up" element={<SignUp />} />
-          <Route path="/auth/forgot-password" element={<Forgot />} />
-          <Route path="*" element={<Error />} /> {/* If page do not exist*/}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/auth/login" element={<LoginPage />} />
+          <Route path="/auth/sign-up" element={<SignUpPage />} />
+          <Route
+            path="/auth/forgot-password"
+            element={<ForgotPasswordPage />}
+          />
+          <Route path="/auth/reset" element={<ResetPasswordPage />} />
+          <Route path="*" element={<ErrorPage />} /> {/* If page do not exist*/}
         </Routes>
       </Router>
     </>
