@@ -1,10 +1,10 @@
-import logoname from "../assets/images/logo.png";
+import logoname from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 function LoginPage() {
   return (
     <main className="overlay">
-      <div className="container">
+      <div className="container login">
         <img src={logoname} alt="" />
         <h1>Login</h1>
         <form id="login-form">
@@ -25,8 +25,8 @@ function LoginPage() {
           </fieldset>
         </form>
         <div className="login-page-options">
-          <Link to="/sign-up">Create an account</Link>
-          <Link to="/forgot-password">Forgot Password?</Link>
+          <Link to="/auth/sign-up">Create an account</Link>
+          <Link to="/auth/forgot-password">Forgot Password?</Link>
         </div>
       </div>
     </main>

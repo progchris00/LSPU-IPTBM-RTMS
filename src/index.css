@@ -45,11 +45,26 @@ main {
   align-items: center;
   flex-direction: column;
 
-  height: 530px;
-  width: 442px;
   border-radius: 12px;
   background-color: white;
   padding: 20px;
+}
+
+.login {
+  height: 530px;
+  width: 442px;
+}
+
+.forgot {
+  height: 440px;
+  width: 442px;
+}
+
+.create-account {
+  align-items: start;
+  justify-content: center;
+  height: 641px;
+  width: 883px;
 }
 
 .container img {
@@ -57,11 +72,31 @@ main {
   width: 70px;
 }
 
+#profile-picture {
+  height: 158px;
+  width: 369px;
+}
+
+.left-container,
+.right-container {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.logo-title {
+  display: flex;
+}
+
 fieldset {
   border: none;
   display: flex;
   flex-direction: column;
   gap: 36px;
+}
+
+.sign-up {
+  flex-direction: row;
 }
 
 fieldset input {
@@ -87,6 +122,10 @@ fieldset input:focus {
   justify-content: space-between;
 }
 
+.forgot-password-options {
+  text-align: center;
+}
+
 .overlay {
   border-image-source: linear-gradient(var(--overlay), var(--overlay));
   border-image-slice: fill 1;
@@ -107,7 +146,8 @@ fieldset label {
   font-size: 1.35rem;
 }
 
-.login-page-options a {
+.login-page-options a,
+.forgot-password-options a {
   color: var(--green);
   text-decoration: none;
   font-size: 0.9rem;
