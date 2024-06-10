@@ -2,7 +2,10 @@
   /* colors */
   --white: #fff;
   --green: #2d6179;
+  --glow: #32a8b640;
+  --overlay: #32a8b680;
   --gray: #5a5a5a;
+  --input-border: #00000033;
 
   /* font sizes */
   --root-font-size: 15px;
@@ -38,13 +41,14 @@ main {
 }
 
 .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
   height: 530px;
   width: 442px;
   border-radius: 12px;
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 20px;
 }
 
@@ -57,7 +61,6 @@ fieldset {
   border: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 36px;
 }
 
@@ -65,13 +68,13 @@ fieldset input {
   width: 369px;
   height: 59px;
   border-radius: 12px;
-  border: 1px solid #00000033;
+  border: 1px solid var(--input-border);
   padding: 10px;
 }
 
 fieldset input:focus {
   outline: 1px solid var(--green);
-  box-shadow: 0px 0px 10px 2px #32a8b640;
+  box-shadow: 0px 0px 10px 2px var(--glow);
 }
 
 .submit-button {
@@ -85,10 +88,7 @@ fieldset input:focus {
 }
 
 .overlay {
-  border-image-source: linear-gradient(
-    hsla(186, 57%, 45%, 0.502),
-    hsla(186, 57%, 45%, 0.502)
-  );
+  border-image-source: linear-gradient(var(--overlay), var(--overlay));
   border-image-slice: fill 1;
 }
 
