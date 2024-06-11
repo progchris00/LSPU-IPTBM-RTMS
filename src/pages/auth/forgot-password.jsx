@@ -8,7 +8,7 @@ function ForgotPasswordPage() {
         <img src={logoname} alt="" id="form-logo" />
         <h1 id="form-heading">Forgot Password</h1>
         <form id="forgot-password-form">
-          <fieldset className="no-border flex-center-column gap">
+          <fieldset className="form-fieldset no-border flex-center-column gap">
             <label htmlFor="email-or-phone">
               Email
               <input type="text" id="email-or-phone" required />
@@ -20,7 +20,7 @@ function ForgotPasswordPage() {
             ></input>
           </fieldset>
         </form>
-        <div className="forgot-password-options">
+        <div className="text-center">
           <Link to="/auth/login">Already have an account?</Link>
         </div>
       </div>

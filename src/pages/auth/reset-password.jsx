@@ -8,7 +8,7 @@ function ResetPasswordPage() {
         <img src={logoname} alt="" id="form-logo" />
         <h1 id="form-heading">Reset Password</h1>
         <form id="reset-password-form">
-          <fieldset className="no-border flex-center-column gap">
+          <fieldset className="form-fieldset no-border flex-center-column gap">
             <label htmlFor="email-or-phone">
               Password
               <input type="text" id="email-or-phone" required />

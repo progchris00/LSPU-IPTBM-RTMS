@@ -5,12 +5,12 @@ function SignUpPage() {
   return (
     <main className="overlay">
       <div className="sign-up container">
-        <div className="logo-and-heading">
+        <div className="flex">
           <img src={logoname} alt="" id="form-logo" />
           <h1 id="form-heading">Create an account</h1>
         </div>
         <form id="sign-up-form">
-          <fieldset className="no-border flex-center">
+          <fieldset className="form-fieldset no-border flex">
             <div className="sign-up-form-left">
               <label htmlFor="profile-picture">
                 Profile Picture

@@ -8,7 +8,7 @@ function LoginPage() {
         <img src={logoname} alt="" id="form-logo" />
         <h1 id="form-heading">Login</h1>
         <form id="login-form">
-          <fieldset className="no-border flex-center-column gap">
+          <fieldset className="form-fieldset no-border flex-center-column gap">
             <label htmlFor="email-or-phone">
               Email or Phone
               <input type="text" id="email-or-phone" required />
@@ -24,7 +24,7 @@ function LoginPage() {
             ></input>
           </fieldset>
         </form>
-        <div className="login-page-options">
+        <div className="flex-space-between">
           <Link to="/auth/sign-up">Create an account</Link>
           <Link to="/auth/forgot-password">Forgot Password?</Link>
         </div>
