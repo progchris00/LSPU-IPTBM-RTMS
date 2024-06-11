@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function LoginPage() {
   return (
     <main className="overlay">
-      <div className="container login">
-        <img src={logoname} alt="" />
-        <h1>Login</h1>
+      <div className="login container flex-center-column">
+        <img src={logoname} alt="" id="form-logo" />
+        <h1 id="form-heading">Login</h1>
         <form id="login-form">
-          <fieldset>
+          <fieldset className="no-border flex-center-column gap">
             <label htmlFor="email-or-phone">
               Email or Phone
               <input type="text" id="email-or-phone" required />

@@ -8,7 +8,7 @@ import ErrorPage from "./pages/error";
 import LoginPage from "./pages/auth/login";
 import SignUpPage from "./pages/auth/signup";
 import ForgotPasswordPage from "./pages/auth/forgot-password";
-import ResetPasswordPage from "./pages/auth/reset";
+import ResetPasswordPage from "./pages/auth/reset-password";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
             path="/auth/forgot-password"
             element={<ForgotPasswordPage />}
           />
-          <Route path="/auth/reset" element={<ResetPasswordPage />} />
+          <Route path="/auth/reset-password" element={<ResetPasswordPage />} />
           <Route path="*" element={<ErrorPage />} /> {/* If page do not exist*/}
         </Routes>
       </Router>

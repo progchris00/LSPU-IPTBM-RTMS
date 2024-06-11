@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function ForgotPasswordPage() {
   return (
     <main className="overlay">
-      <div className="container forgot">
-        <img src={logoname} alt="" />
-        <h1>Forgot Password</h1>
+      <div className="forgot container flex-center-column">
+        <img src={logoname} alt="" id="form-logo" />
+        <h1 id="form-heading">Forgot Password</h1>
         <form id="forgot-password-form">
-          <fieldset>
+          <fieldset className="no-border flex-center-column gap">
             <label htmlFor="email-or-phone">
               Email
               <input type="text" id="email-or-phone" required />

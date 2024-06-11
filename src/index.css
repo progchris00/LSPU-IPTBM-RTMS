@@ -41,61 +41,17 @@ main {
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
   border-radius: 12px;
   background-color: white;
   padding: 20px;
 }
 
-.login {
-  height: 530px;
-  width: 442px;
-}
-
-.forgot {
-  height: 440px;
-  width: 442px;
-}
-
-.create-account {
-  align-items: start;
-  justify-content: center;
-  height: 641px;
-  width: 883px;
-}
-
-.container img {
+#form-logo {
   height: 70px;
   width: 70px;
 }
 
-#profile-picture {
-  height: 158px;
-  width: 369px;
-}
-
-.left-container,
-.right-container {
-  display: flex;
-  flex-direction: column;
-  gap: 19px;
-}
-
-.logo-title {
-  display: flex;
-}
-
-fieldset {
-  border: none;
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
-}
-
-.sign-up {
+.sign-up-field {
   flex-direction: row;
 }
 
@@ -126,13 +82,74 @@ fieldset input:focus {
   text-align: center;
 }
 
+/* Start of Sign up page */
+#profile-picture {
+  height: 158px;
+  width: 369px;
+}
+
+.left-container,
+.right-container {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.logo-title {
+  display: flex;
+}
+
+/* End of sign up page */
+
+/* Start of container size */
+
+.login {
+  height: 530px;
+  width: 442px;
+}
+
+.sign-up {
+  height: 641px;
+  width: 883px;
+}
+
+.forgot {
+  height: 440px;
+  width: 442px;
+}
+
+.reset {
+  height: 530px;
+  width: 442px;
+}
+
+/* End of container size */
+
+/* Start of Special classes */
+
 .overlay {
   border-image-source: linear-gradient(var(--overlay), var(--overlay));
   border-image-slice: fill 1;
 }
 
-/* Font styling */
-h1 {
+.flex-center-column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.no-border {
+  border: none;
+}
+
+.gap {
+  gap: 36px;
+}
+
+/* End of special classes */
+
+/* Start of Font styling */
+h1#form-heading {
   font-weight: var(--regular);
 }
 
@@ -152,3 +169,5 @@ fieldset label {
   text-decoration: none;
   font-size: 0.9rem;
 }
+
+/* End of font styling */

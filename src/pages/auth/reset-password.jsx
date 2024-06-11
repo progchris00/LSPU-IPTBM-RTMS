@@ -4,25 +4,26 @@ import { Link } from "react-router-dom";
 function ResetPasswordPage() {
   return (
     <main className="overlay">
-      <div className="container forgot">
-        <img src={logoname} alt="" />
-        <h1>Reset Password</h1>
-        <form id="forgot-password-form">
-          <fieldset>
+      <div className="reset container flex-center-column">
+        <img src={logoname} alt="" id="form-logo" />
+        <h1 id="form-heading">Reset Password</h1>
+        <form id="reset-password-form">
+          <fieldset className="no-border flex-center-column gap">
             <label htmlFor="email-or-phone">
-              Email
+              Password
+              <input type="text" id="email-or-phone" required />
+            </label>
+            <label htmlFor="email-or-phone">
+              Confirm Password
               <input type="text" id="email-or-phone" required />
             </label>
             <input
               type="submit"
               className="submit-button"
-              value={"Send Reset Link"}
+              value={"Reset"}
             ></input>
           </fieldset>
         </form>
-        <div className="forgot-password-options">
-          <Link to="/auth/login">Already have an account?</Link>
-        </div>
       </div>
     </main>
   );

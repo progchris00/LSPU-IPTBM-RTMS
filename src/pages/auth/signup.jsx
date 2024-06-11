@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 function SignUpPage() {
   return (
     <main className="overlay">
-      <div className="container create-account">
+      <div className="sign-up container">
         <div className="logo-title">
-          <img src={logoname} alt="" />
-          <h1>Create an account</h1>
+          <img src={logoname} alt="" id="form-logo" />
+          <h1 id="form-heading">Create an account</h1>
         </div>
         <form id="sign-up-form">
-          <fieldset className="sign-up">
+          <fieldset className="no-border">
             <div className="left-container">
               <label htmlFor="profile-picture">
                 Profile Picture
