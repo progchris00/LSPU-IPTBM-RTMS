@@ -51,16 +51,16 @@ main {
   width: 70px;
 }
 
-.sign-up-field {
-  flex-direction: row;
-}
-
 fieldset input {
   width: 369px;
   height: 59px;
   border-radius: 12px;
   border: 1px solid var(--input-border);
   padding: 10px;
+}
+
+fieldset label {
+  width: 369px;
 }
 
 fieldset input:focus {
@@ -82,48 +82,50 @@ fieldset input:focus {
   text-align: center;
 }
 
-/* Start of Sign up page */
-#profile-picture {
-  height: 158px;
-  width: 369px;
-}
-
-.left-container,
-.right-container {
-  display: flex;
-  flex-direction: column;
-  gap: 19px;
-}
-
-.logo-title {
-  display: flex;
-}
-
 /* End of sign up page */
 
 /* Start of container size */
 
-.login {
+.container.login {
   height: 530px;
   width: 442px;
 }
 
-.sign-up {
+.container.sign-up {
   height: 641px;
   width: 883px;
 }
 
-.forgot {
+.container.forgot {
   height: 440px;
   width: 442px;
 }
 
-.reset {
+.container.reset {
   height: 530px;
   width: 442px;
 }
 
 /* End of container size */
+
+/* Start of Sign up page */
+
+#profile-picture {
+  height: 158px;
+  width: 369px;
+}
+
+.sign-up-form-left,
+.sign-up-form-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.logo-and-heading {
+  display: flex;
+}
 
 /* Start of Special classes */
 
@@ -146,6 +148,10 @@ fieldset input:focus {
   gap: 36px;
 }
 
+.flex-center {
+  display: flex;
+}
+
 /* End of special classes */
 
 /* Start of Font styling */
@@ -164,7 +170,8 @@ fieldset label {
 }
 
 .login-page-options a,
-.forgot-password-options a {
+.forgot-password-options a,
+.link {
   color: var(--green);
   text-decoration: none;
   font-size: 0.9rem;
