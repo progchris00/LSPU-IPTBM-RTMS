@@ -46,11 +46,6 @@ main {
   padding: 20px;
 }
 
-#form-logo {
-  height: 70px;
-  width: 70px;
-}
-
 .form-fieldset input {
   width: 369px;
   height: 59px;
@@ -111,17 +106,33 @@ main {
 
 /* Start of Sign up page */
 
-#profile-picture {
-  height: 158px;
-  width: 369px;
-}
-
 .sign-up-form-left,
 .sign-up-form-right {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+#profile-picture-input {
+  border: none;
+}
+
+#profile-picture-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#profile-upload-wrapper {
+  border-radius: 12px;
+  border: 2px dashed var(--input-border);
+  padding: 10px;
+  height: 158px;
+  width: 369px;
+}
+
+#upload-instruction {
+  margin: 0;
 }
 
 /* End of sign up page */
@@ -162,6 +173,19 @@ main {
 }
 
 /* End of special classes */
+
+/* Images */
+#form-logo {
+  height: 70px;
+  width: 70px;
+}
+
+#profile-picture-default {
+  height: 100px;
+  width: 100px;
+}
+
+/* End of images */
 
 /* Start of Font styling */
 h1#form-heading {
