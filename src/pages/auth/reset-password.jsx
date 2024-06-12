@@ -1,11 +1,10 @@
-import logoname from "../../assets/images/logo.png";
-import { Link } from "react-router-dom";
+import FormLogo from "../../assets/images/logo.png";
 
 function ResetPasswordPage() {
   return (
     <main className="overlay">
       <div className="reset container flex-center-column">
-        <img src={logoname} alt="" id="form-logo" />
+        <img src={FormLogo} alt="" id="form-logo" />
         <h1 id="form-heading">Reset Password</h1>
         <form id="reset-password-form">
           <fieldset className="form-fieldset no-border flex-center-column gap">

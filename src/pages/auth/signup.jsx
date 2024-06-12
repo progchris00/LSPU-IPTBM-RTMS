@@ -1,4 +1,4 @@
-import logoname from "../../assets/images/logo.png";
+import FormLogo from "../../assets/images/logo.png";
 import CloudUpload from "../../assets/images/cloud-upload.png";
 
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ function SignUpPage() {
     <main className="overlay">
       <div className="sign-up container">
         <div className="flex">
-          <img src={logoname} alt="" id="form-logo" />
+          <img src={FormLogo} alt="" id="form-logo" />
           <h1 id="form-heading">Create an account</h1>
         </div>
         <form id="sign-up-form">

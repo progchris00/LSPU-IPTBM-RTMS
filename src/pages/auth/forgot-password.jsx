@@ -1,11 +1,11 @@
-import logoname from "../../assets/images/logo.png";
+import FormLogo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 function ForgotPasswordPage() {
   return (
     <main className="overlay">
       <div className="forgot container flex-center-column">
-        <img src={logoname} alt="" id="form-logo" />
+        <img src={FormLogo} alt="" id="form-logo" />
         <h1 id="form-heading">Forgot Password</h1>
         <form id="forgot-password-form">
           <fieldset className="form-fieldset no-border flex-center-column gap">
