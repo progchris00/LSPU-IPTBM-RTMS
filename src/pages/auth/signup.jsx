@@ -1,7 +1,10 @@
-import FormLogo from "../../assets/images/logo.png";
-import CloudUpload from "../../assets/images/cloud-upload.png";
-
 import { Link } from "react-router-dom";
+
+// Images
+import FormLogo from "../../assets/images/logo.png";
+
+// Components
+import DragDropImage from "../../components/DragDropImage";
 
 function SignUpPage() {
   return (
@@ -14,29 +17,7 @@ function SignUpPage() {
         <form id="sign-up-form">
           <fieldset className="form-fieldset no-border flex">
             <div className="sign-up-form-left">
-              <div id="picture-upload-container">
-                <label htmlFor="profile-picture-input">
-                  Profile Picture
-                  <div id="profile-upload-wrapper">
-                    <input
-                      type="file"
-                      id="profile-picture-input"
-                      accept="image/*"
-                      hidden
-                    />
-                    <div id="img-view" className="flex-center-column">
-                      <img
-                        src={CloudUpload}
-                        alt=""
-                        id="profile-picture-default"
-                      />
-                      <p id="upload-instruction">
-                        Drag and drop or click here to upload image
-                      </p>
-                    </div>
-                  </div>
-                </label>
-              </div>
+              <DragDropImage />
               <label htmlFor="first-name">
                 First Name
                 <input type="text" id="first-name" required />
