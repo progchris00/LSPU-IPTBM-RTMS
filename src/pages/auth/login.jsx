@@ -12,7 +12,7 @@ function LoginPage() {
             <fieldset className="form-fieldset no-border flex-center-column gap">
               <label htmlFor="email-or-phone">
                 Email or Phone
-                <input type="text" id="email-or-phone" required />
+                <input type="text" id="email-or-phone" required autoFocus />
               </label>
               <label htmlFor="password">
                 Password
