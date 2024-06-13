@@ -41,14 +41,19 @@ main {
 
 .form-container {
   width: 100%;
-  padding: 0 24px;
+  height: 90%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   border-radius: 12px;
   background-color: white;
   padding: 20px;
-  margin: auto;
+  height: 100%;
+  width: 100%;
 }
 
 .form-fieldset input {
@@ -91,12 +96,12 @@ main {
 /* Start of container size */
 
 .container.login {
-  height: 530px;
+  max-height: 530px;
   max-width: 442px;
 }
 
 .container.sign-up {
-  height: 641px;
+  max-height: 641px;
   max-width: 883px;
 }
 
@@ -247,17 +252,22 @@ h1#form-heading {
 /* End of font styling */
 
 /* Media queries */
-@media screen and (max-width: 676px) {
+@media (max-width: 584px) {
   .sign-up-form-left,
   .sign-up-form-right {
     width: 100%;
     align-items: center;
   }
 
-  #login-form,
+  /* #login-form,
   #forgot-password-form,
   #sign-up-form {
     max-height: 500px;
+    overflow-y: scroll;
+  } */
+
+  .form-fieldset {
+    max-width: 300px;
     overflow-y: scroll;
   }
 }
