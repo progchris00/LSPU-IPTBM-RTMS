@@ -53,6 +53,7 @@ main {
 
 .form-fieldset input {
   width: 100%;
+  max-width: 369px;
   height: 59px;
   border-radius: 12px;
   border: 1px solid var(--input-border);
@@ -61,6 +62,8 @@ main {
 
 .form-fieldset label {
   width: 100%;
+  max-width: 369px;
+  display: block;
 }
 
 .form-fieldset input:focus {
@@ -94,7 +97,7 @@ main {
 
 .container.sign-up {
   height: 641px;
-  width: 883px;
+  max-width: 883px;
 }
 
 .container.forgot {
@@ -108,7 +111,8 @@ main {
 }
 
 #login-form,
-#forgot-password-form {
+#forgot-password-form,
+#sign-up-form {
   width: 100%;
 }
 
@@ -118,7 +122,7 @@ main {
 
 .sign-up-form-left,
 .sign-up-form-right {
-  width: 100%;
+  width: 49%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -138,7 +142,7 @@ main {
   border: 2px dashed var(--input-border);
   padding: 10px;
   height: 158px;
-  width: 369px;
+  width: 100%;
 }
 
 #upload-instruction {
@@ -147,6 +151,16 @@ main {
 
 #img-view {
   height: 100%;
+}
+
+#picture-upload-container {
+  width: 100%;
+  max-width: 369px;
+}
+
+#sign-up-form .form-fieldset {
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* End of sign up page */
