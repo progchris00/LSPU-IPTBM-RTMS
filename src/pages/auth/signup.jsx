@@ -11,7 +11,7 @@ function SignUpPage() {
     <main className="overlay">
       <div className="form-container">
         <div className="sign-up container">
-          <div className="flex">
+          <div className="flex logo-heading">
             <img src={FormLogo} alt="" id="form-logo" />
             <h1 id="form-heading">Create an account</h1>
           </div>
