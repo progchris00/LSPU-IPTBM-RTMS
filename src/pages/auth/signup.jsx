@@ -49,7 +49,7 @@ function SignUpPage() {
                   Confirm Password
                   <input type="password" id="confirm-password" required />
                 </label>
-                <div>
+                <div className="sign-up-options">
                   <input
                     type="submit"
                     className="submit-button"
