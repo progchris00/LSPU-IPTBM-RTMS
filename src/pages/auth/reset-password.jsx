@@ -24,9 +24,6 @@ function ResetPasswordPage() {
                 value={"Reset"}
               ></input>
             </fieldset>
-            <div>
-              <Link to="/auth/login">Log in</Link>
-            </div>
           </form>
         </div>
       </div>
