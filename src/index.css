@@ -215,7 +215,7 @@ fieldset {
 /* Start of Font styling */
 h1#form-heading {
   font-weight: var(--regular);
-  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-size: clamp(1.5rem, 2.5vw, 1.65rem);
   margin: 10px 0;
 }
 
