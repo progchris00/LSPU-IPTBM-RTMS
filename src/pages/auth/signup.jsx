@@ -17,7 +17,7 @@ function SignUpPage() {
           </div>
           <form id="sign-up-form">
             <fieldset className="form-fieldset no-border flex">
-              <div className="sign-up-form-left">
+              <div className="sign-up-form-left gap">
                 <DragDropImage />
                 <label htmlFor="first-name">
                   First Name
@@ -39,7 +39,7 @@ function SignUpPage() {
                   </datalist>
                 </label>
               </div>
-              <div className="sign-up-form-right">
+              <div className="sign-up-form-right gap">
                 <label htmlFor="phone-number">
                   Phone no.
                   <input type="tel" id="phone-number" required />

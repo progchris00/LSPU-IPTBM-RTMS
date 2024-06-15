@@ -47,6 +47,13 @@ main {
   justify-content: center;
 }
 
+.container {
+  border-radius: 12px;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+}
+
 /* Start of container size */
 
 .container.login {
@@ -58,7 +65,7 @@ main {
 }
 
 .container.forgot {
-  max-width: 442px;
+  max-width: 350px;
 }
 
 .container.reset {
@@ -67,18 +74,12 @@ main {
 
 #login-form,
 #forgot-password-form,
-#sign-up-form {
+#sign-up-form,
+.form-fieldset label {
   width: 100%;
 }
 
 /* End of container size */
-
-.container {
-  border-radius: 12px;
-  background-color: white;
-  padding: 20px;
-  width: 100%;
-}
 
 fieldset {
   padding: 0;
@@ -91,50 +92,41 @@ fieldset {
   padding: 12px;
 }
 
-.form-fieldset label {
-  width: 100%;
-}
-
-.form-fieldset input:focus {
-  outline: 1px solid var(--green);
-  box-shadow: 0px 0px 10px 2px var(--glow);
-}
-
 .form-fieldset .submit-button {
   cursor: pointer;
   background-color: var(--green);
+  margin-bottom: 10px;
 }
 
 /* Start of Sign up page */
 
-.sign-up-form-left,
-.sign-up-form-right {
-  width: 48%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  gap: 10px;
+.logo-heading {
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 #sign-up-form {
   margin-bottom: 10px;
 }
 
-#profile-picture-input {
-  border: none;
+#sign-up-form .form-fieldset {
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-#profile-picture-input:focus {
-  outline: none;
-  box-shadow: none;
+.sign-up-form-left,
+.sign-up-form-right {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #profile-upload-wrapper {
-  border-radius: 12px;
+  border-radius: 7px;
   border: 2px dashed var(--input-border);
   padding: 10px;
   height: 158px;
-  width: 100%;
 }
 
 #upload-instruction {
@@ -143,25 +135,6 @@ fieldset {
 
 #img-view {
   text-align: center;
-}
-
-#picture-upload-container {
-  width: 100%;
-  max-width: 369px;
-}
-
-#sign-up-form .form-fieldset {
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.logo-heading {
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.login-option {
-  margin: 10px 0 0;
 }
 
 /* End of sign up page */
@@ -184,7 +157,7 @@ fieldset {
 }
 
 .gap {
-  gap: 18px;
+  gap: 14px;
 }
 
 .flex {
@@ -203,7 +176,7 @@ fieldset {
 
 /* End of special classes */
 
-/* Hover effects */
+/* Effects */
 
 .form-fieldset .submit-button:hover {
   background-color: #3a80a0;
@@ -211,6 +184,11 @@ fieldset {
 
 .container a:hover {
   color: #3a80a0;
+}
+
+.form-fieldset input:focus {
+  outline: 1px solid var(--green);
+  box-shadow: 0px 0px 10px 2px var(--glow);
 }
 
 /* End of hover effects */
