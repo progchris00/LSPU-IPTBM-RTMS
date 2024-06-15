@@ -69,12 +69,13 @@ main {
 }
 
 .container.reset {
-  max-width: 442px;
+  max-width: 350px;
 }
 
 #login-form,
 #forgot-password-form,
 #sign-up-form,
+#reset-password-form,
 .form-fieldset label {
   width: 100%;
 }
