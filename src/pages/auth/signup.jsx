@@ -21,7 +21,7 @@ function SignUpPage() {
                 <DragDropImage />
                 <label htmlFor="first-name">
                   First Name
-                  <input type="text" id="first-name" required />
+                  <input type="text" id="first-name" required autoFocus />
                 </label>
                 <label htmlFor="last-name">
                   Last Name
