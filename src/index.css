@@ -50,7 +50,7 @@ main {
 /* Start of container size */
 
 .container.login {
-  max-width: 442px;
+  max-width: 350px;
 }
 
 .container.sign-up {
@@ -58,13 +58,11 @@ main {
 }
 
 .container.forgot {
-  height: 440px;
   max-width: 442px;
 }
 
 .container.reset {
-  height: 530px;
-  width: 442px;
+  max-width: 442px;
 }
 
 #login-form,
@@ -82,10 +80,13 @@ main {
   width: 100%;
 }
 
+fieldset {
+  padding: 0;
+}
+
 .form-fieldset input {
   width: 100%;
-  height: 59px;
-  border-radius: 12px;
+  border-radius: 7px;
   border: 1px solid var(--input-border);
   padding: 12px;
 }
@@ -159,20 +160,8 @@ main {
   margin-bottom: 10px;
 }
 
-#sign-up-form input {
-  padding: 12px;
-  height: auto;
-  border-radius: 7px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-#sign-up-form fieldset {
-  padding: 0;
-  margin: 0;
-}
-
 .login-option {
-  margin-bottom: 10px;
+  margin: 10px 0 0;
 }
 
 /* End of sign up page */
@@ -195,7 +184,7 @@ main {
 }
 
 .gap {
-  gap: 36px;
+  gap: 18px;
 }
 
 .flex {
@@ -249,6 +238,7 @@ main {
 h1#form-heading {
   font-weight: var(--regular);
   font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin: 10px 0;
 }
 
 .form-fieldset label {
@@ -258,7 +248,7 @@ h1#form-heading {
 .submit-button {
   color: var(--white);
   font-family: var(--font-family);
-  font-size: 1.35rem;
+  font-size: 14px;
 }
 
 .container a {
@@ -267,16 +257,9 @@ h1#form-heading {
   font-size: 0.9rem;
 }
 
-/* Specifically applying font size to sign up form */
-#sign-up-form {
+label {
   font-size: 13px;
 }
-
-#sign-up-form input {
-  font-size: 14px;
-}
-
-/* End of font styling */
 
 /* Media queries */
 @media (max-width: 647px) {
