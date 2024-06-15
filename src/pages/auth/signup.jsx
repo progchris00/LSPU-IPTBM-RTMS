@@ -29,7 +29,14 @@ function SignUpPage() {
                 </label>
                 <label htmlFor="branch">
                   Branch
-                  <input type="text" id="branch" required />
+                  <input type="text" list="branch-list" id="branch" required />
+                  <datalist id="branch-list">
+                    <option value="Los Baños">Los Baños</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="San Pablo">San Pablo</option>
+                    <option value="Siniloan">Siniloan</option>
+                    <option value="Extention">Extention</option>
+                  </datalist>
                 </label>
               </div>
               <div className="sign-up-form-right">

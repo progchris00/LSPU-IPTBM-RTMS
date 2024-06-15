@@ -54,7 +54,7 @@ main {
 }
 
 .container.sign-up {
-  max-width: 883px;
+  max-width: 660px;
 }
 
 .container.forgot {
@@ -108,11 +108,15 @@ main {
 
 .sign-up-form-left,
 .sign-up-form-right {
-  width: 50%;
+  width: 48%;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  padding: 10px;
-  gap: 20px;
+  gap: 10px;
+}
+
+#sign-up-form {
+  margin-bottom: 10px;
 }
 
 #profile-picture-input {
@@ -147,10 +151,27 @@ main {
 
 #sign-up-form .form-fieldset {
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .logo-heading {
   align-items: center;
+}
+
+#sign-up-form input {
+  padding: 12px;
+  height: auto;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#sign-up-form fieldset {
+  padding: 0;
+  margin: 0;
+}
+
+.login-option {
+  margin-bottom: 10px;
 }
 
 /* End of sign up page */
@@ -244,6 +265,15 @@ h1#form-heading {
   font-size: 0.9rem;
 }
 
+/* Specifically applying font size to sign up form */
+#sign-up-form {
+  font-size: 13px;
+}
+
+#sign-up-form input {
+  font-size: 14px;
+}
+
 /* End of font styling */
 
 /* Media queries */
@@ -265,11 +295,16 @@ h1#form-heading {
   #sign-up-form .form-fieldset {
     max-height: 430px;
     overflow-y: scroll;
+    gap: 10px;
   }
 
   .sign-up-options {
     width: 100%;
     text-align: center;
+  }
+
+  #sign-up-form fieldset {
+    padding: 0 10px;
   }
 }
 /* End of media queries */

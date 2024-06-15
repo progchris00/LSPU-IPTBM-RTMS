@@ -25,7 +25,7 @@ function LoginPage() {
               ></input>
             </fieldset>
           </form>
-          <div className="flex-space-between">
+          <div className="flex-space-between login-option">
             <Link to="/auth/sign-up">Create an account</Link>
             <Link to="/auth/forgot-password">Forgot Password?</Link>
           </div>
