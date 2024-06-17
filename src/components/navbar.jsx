@@ -7,8 +7,10 @@ function Navbar() {
   return (
     <header>
       <div className="nav-wrapper">
-        <img src={Logo} alt="LSPU IPTBM Logo" id="form-logo" />
-        <h1 className="nav-logoname">LSPU IPTBM</h1>
+        <div className="logo-container">
+          <img src={Logo} alt="LSPU IPTBM Logo" id="form-logo" />
+          <h1 className="nav-logoname">LSPU IPTBM</h1>
+        </div>
         <nav>
           <ul className="nav-menu">
             <li>
