@@ -337,6 +337,10 @@ nav > ul > li {
   margin-right: 20px;
 }
 
+.mobile-auth {
+  display: none;
+}
+
 /* Hamburger menu */
 .menu {
   display: none;
@@ -406,6 +410,9 @@ nav > ul > li {
 }
 
 @media (max-width: 1024px) {
+  header {
+    height: 80px;
+  }
   .nav-wrapper {
     width: 90%;
   }
@@ -420,7 +427,31 @@ nav > ul > li {
   }
 
   .nav-menu {
-    display: none;
+    height: 100vh;
+    width: 250px;
+
+    background-color: var(--green);
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 40px 0 0 20px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    margin: 0;
+  }
+
+  .mobile-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .nav-menu a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
   }
 
   .auth-buttons {

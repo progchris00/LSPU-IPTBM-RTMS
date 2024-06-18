@@ -14,7 +14,7 @@ function Navbar() {
         </div>
         <nav>
           <div className="menu">
-            <img src={HamMenu} alt="" id="menu-icon" />
+            <img src={HamMenu} alt="hamburger-menu" id="menu-icon" />
           </div>
           <ul className="nav-menu">
             <li>
@@ -29,6 +29,10 @@ function Navbar() {
             <li>
               <Link to="/Contact-us">Contact us</Link>
             </li>
+            <div className="mobile-auth">
+              <Link to="/auth/login">Login</Link>
+              <Link to="/auth/sign-up">Sign Up</Link>
+            </div>
           </ul>
           <div className="auth-buttons">
             <Link to="/auth/login" className="ghost-button">
