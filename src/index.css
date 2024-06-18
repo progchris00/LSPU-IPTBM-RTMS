@@ -214,6 +214,12 @@ fieldset {
   width: 130px;
 }
 
+#nav-logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+
 /* End of images */
 
 /* Start of Font styling */
@@ -268,6 +274,7 @@ nav > ul > li > a {
 /* Start of navbar styling */
 
 header {
+  height: 120px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -290,7 +297,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
   max-width: 700px;
 }
 
@@ -308,9 +315,6 @@ nav > ul > li {
 
 .auth-buttons {
   display: flex;
-  justify-content: space-between;
-  width: 40%;
-  max-width: 400px;
 }
 
 .ghost-button,
@@ -325,6 +329,10 @@ nav > ul > li {
 
 .solid-button {
   background-color: var(--green);
+}
+
+.auth-buttons .ghost-button {
+  margin-right: 20px;
 }
 
 /* End of navbar */
@@ -365,14 +373,18 @@ nav > ul > li {
   }
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1200px) {
   .ghost-button,
   .solid-button {
-    padding: 10px 25px;
+    padding: 10px 20px;
+  }
+
+  .auth-buttons .ghost-button {
+    margin-right: 10px;
   }
 
   .auth-buttons {
-    max-width: 200px;
+    max-width: 180px;
     width: 100%;
   }
 }
