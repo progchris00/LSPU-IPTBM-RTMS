@@ -342,7 +342,7 @@ nav > ul > li {
 }
 
 /* Hamburger menu */
-.menu {
+#menu {
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -422,7 +422,7 @@ nav > ul > li {
     width: auto;
   }
 
-  .menu {
+  #menu {
     display: flex;
   }
 
@@ -437,8 +437,13 @@ nav > ul > li {
     padding: 40px 0 0 20px;
     position: fixed;
     top: 80px;
-    right: 0;
+    right: -250px;
     margin: 0;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-menu.active {
+    right: 0px;
   }
 
   .mobile-auth {
