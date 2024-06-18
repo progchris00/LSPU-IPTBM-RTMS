@@ -8,7 +8,7 @@ function Navbar() {
     <header>
       <div className="nav-wrapper">
         <div className="logo-container">
-          <img src={Logo} alt="LSPU IPTBM Logo" id="form-logo" />
+          <img src={Logo} alt="LSPU IPTBM Logo" id="nav-logo" />
           <h1 className="nav-logoname">LSPU IPTBM</h1>
         </div>
         <nav>
