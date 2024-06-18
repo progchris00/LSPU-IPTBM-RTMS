@@ -5,6 +5,7 @@
   --glow: #32a8b640;
   --overlay: #32a8b680;
   --gray: #5a5a5a;
+  --gray-text: #9e9e9e;
   --input-border: #00000033;
   --background-color: #fbfeff;
 
@@ -245,6 +246,23 @@ label {
 header h1 {
   font-size: 1.4rem;
   font-weight: var(--regular);
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: var(--gray-text);
+}
+
+.auth-buttons a {
+  text-decoration: none;
+}
+
+.auth-buttons .ghost-button {
+  color: var(--green);
+}
+
+.auth-buttons .solid-button {
+  color: var(--white);
 }
 
 /* Start of navbar styling */
