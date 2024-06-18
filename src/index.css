@@ -337,6 +337,20 @@ nav > ul > li {
   margin-right: 20px;
 }
 
+/* Hamburger menu */
+.menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#menu-icon {
+  width: 36px;
+  height: 25px;
+}
+
+/* End of hamburger menu */
+
 /* End of navbar */
 
 /* Media queries */
@@ -386,8 +400,31 @@ nav > ul > li {
   }
 
   .auth-buttons {
-    max-width: 180px;
+    max-width: 190px;
     width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-wrapper {
+    width: 90%;
+  }
+
+  nav {
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .auth-buttons {
+    display: none;
   }
 }
 /* End of media queries */
