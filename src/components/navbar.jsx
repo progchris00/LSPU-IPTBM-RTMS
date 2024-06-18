@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Logo from "../assets/images/logo.png";
+import HamMenu from "../assets/images/ham-menu.svg";
 
 function Navbar() {
   return (
@@ -12,6 +13,9 @@ function Navbar() {
           <h1 className="nav-logoname">LSPU IPTBM</h1>
         </div>
         <nav>
+          <div className="menu">
+            <img src={HamMenu} alt="" id="menu-icon" />
+          </div>
           <ul className="nav-menu">
             <li>
               <Link to="/Home">Home</Link>
