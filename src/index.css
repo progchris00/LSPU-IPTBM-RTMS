@@ -240,6 +240,7 @@ nav > ul > li {
 
 .hero-wrapper {
   display: flex;
+  flex-wrap: wrap;
   width: 80%;
   max-width: 1120px;
 }
@@ -527,6 +528,24 @@ nav > ul > li > a {
     height: 50px;
     width: 50px;
     margin-right: 15px;
+  }
+
+  .hero-wrapper {
+    width: 90%;
+  }
+
+  .hero-left,
+  .hero-right {
+    width: 100%;
+  }
+
+  .hero-title {
+    line-height: 45px;
+    font-size: 30px;
+  }
+
+  .hero-description {
+    margin: 0 0 38px 0;
   }
 }
 /* End of media queries */
