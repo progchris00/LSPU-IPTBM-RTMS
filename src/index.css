@@ -409,7 +409,7 @@ nav > ul > li > a {
   font-weight: var(--semi-bold);
   color: var(--black-gray);
   line-height: 70px;
-  margin: 0 0 20px 0;
+  margin: 0;
 }
 
 .hero-description {
@@ -549,11 +549,11 @@ nav > ul > li > a {
 
   .hero-description {
     font-size: 1rem;
-    margin: 0 0 20px 0;
+    margin: 0 0 45px 0;
   }
 
   .rtms-container {
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
   }
 
   #hero .solid-button {
