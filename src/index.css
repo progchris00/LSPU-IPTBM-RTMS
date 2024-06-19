@@ -266,6 +266,16 @@ nav > ul > li {
   font-size: clamp(0.8rem, 2.5vw, 1rem);
 }
 
+.hero-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero-img {
+  width: 90%;
+}
+
 /* End of hero section */
 
 /* Images */
@@ -409,7 +419,7 @@ nav > ul > li > a {
   font-weight: var(--semi-bold);
   color: var(--black-gray);
   line-height: 70px;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
 .hero-description {
@@ -545,6 +555,7 @@ nav > ul > li > a {
   .hero-title {
     line-height: 45px;
     font-size: 2rem;
+    margin: 0;
   }
 
   .hero-description {

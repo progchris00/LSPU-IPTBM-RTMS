@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import HeroImg from "../assets/images/hero-image.svg";
 
 function Hero() {
   return (
@@ -19,7 +20,9 @@ function Hero() {
           <Link className="solid-button">Get Started</Link>
           <Link className="ghost-button">Schedule a meeting</Link>
         </div>
-        <div className="hero-right"></div>
+        <div className="hero-right">
+          <img src={HeroImg} alt="" id="hero-img" />
+        </div>
       </div>
     </section>
   );
