@@ -258,9 +258,12 @@ nav > ul > li {
   border: 1px solid var(--input-border);
   border-radius: 50px;
   padding: 10px 20px;
-  width: 312px;
+  max-width: 312px;
+  width: 80%;
   margin: 44px 0 20px;
   background-color: #d9d9d933;
+  text-align: center;
+  font-size: clamp(0.7rem, 2.5vw, 1rem);
 }
 
 /* End of hero section */
@@ -541,11 +544,20 @@ nav > ul > li > a {
 
   .hero-title {
     line-height: 45px;
-    font-size: 30px;
+    font-size: 1.7rem;
   }
 
   .hero-description {
+    font-size: 1.07rem;
     margin: 0 0 38px 0;
+  }
+
+  .rtms-container {
+    margin-top: 10px;
+  }
+
+  #hero .solid-button {
+    margin-right: 5px;
   }
 }
 /* End of media queries */
