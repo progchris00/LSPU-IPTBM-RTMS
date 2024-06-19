@@ -393,7 +393,7 @@ nav > ul > li {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .ghost-button,
   .solid-button {
     padding: 10px 20px;
@@ -413,12 +413,12 @@ nav > ul > li {
   header {
     height: 80px;
   }
+
   .nav-wrapper {
     width: 90%;
   }
 
   nav {
-    justify-content: flex-end;
     width: auto;
   }
 
@@ -466,6 +466,7 @@ nav > ul > li {
   #nav-logo {
     height: 50px;
     width: 50px;
+    margin-right: 15px;
   }
 }
 /* End of media queries */
