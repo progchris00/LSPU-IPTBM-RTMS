@@ -5,6 +5,7 @@
   --glow: #32a8b640;
   --overlay: #32a8b680;
   --gray: #5a5a5a;
+  --black-gray: #000000b2;
   --gray-text: #9e9e9e;
   --input-border: #00000033;
   --background-color: #fbfeff;
@@ -15,9 +16,11 @@
 
   /* font-families */
   --font-family: "Signika", sans-serif;
+  --inter: "Inter", sans-serif;
 
   /* font weight */
   --regular: 400;
+  --semi-bold: 700;
 }
 
 *,
@@ -250,6 +253,15 @@ nav > ul > li {
   margin-right: 20px;
 }
 
+.rtms-container {
+  border: 1px solid var(--input-border);
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: 312px;
+  margin: 44px 0 20px;
+  background-color: #d9d9d933;
+}
+
 /* End of hero section */
 
 /* Images */
@@ -381,6 +393,26 @@ nav > ul > li > a {
 
 .solid-button {
   color: var(--white);
+}
+
+.hero-title,
+.hero-description {
+  font-family: var(--inter);
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: var(--semi-bold);
+  color: var(--black-gray);
+  line-height: 70px;
+  margin: 0 0 20px 0;
+}
+
+.hero-description {
+  font-size: 1.3rem;
+  color: #9f9a9a;
+  line-height: 35px;
+  margin: 0 0 48px 0;
 }
 
 /* End of font styling */
