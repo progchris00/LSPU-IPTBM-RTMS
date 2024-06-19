@@ -260,16 +260,17 @@ nav > ul > li > a {
   font-size: 16px;
 }
 
-.auth-buttons a {
+.ghost-button,
+.solid-button {
   text-decoration: none;
   font-size: 16px;
 }
 
-.auth-buttons .ghost-button {
+.ghost-button {
   color: var(--green);
 }
 
-.auth-buttons .solid-button {
+.solid-button {
   color: var(--white);
 }
 
@@ -356,6 +357,31 @@ nav > ul > li {
 /* End of hamburger menu */
 
 /* End of navbar */
+
+/* Hero section */
+#hero {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-wrapper {
+  display: flex;
+  width: 80%;
+  max-width: 1120px;
+}
+
+.hero-left,
+.hero-right {
+  width: 50%;
+}
+
+#hero .solid-button {
+  margin-right: 20px;
+}
+
+/* End of hero section */
 
 /* Media queries */
 @media (max-width: 647px) {
