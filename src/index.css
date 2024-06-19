@@ -143,137 +143,6 @@ fieldset {
 
 /* End of sign up page */
 
-/* Start of Special classes */
-
-.overlay {
-  border-image-source: linear-gradient(var(--overlay), var(--overlay));
-  border-image-slice: fill 1;
-}
-
-.flex-center-column {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.no-border {
-  border: none;
-}
-
-.gap {
-  gap: 14px;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-space-between {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.text-center {
-  text-align: center;
-}
-
-/* End of special classes */
-
-/* Effects */
-
-.form-fieldset .submit-button:hover {
-  background-color: #3a80a0;
-}
-
-.container a:hover {
-  color: #3a80a0;
-}
-
-.form-fieldset input:focus {
-  outline: 1px solid var(--green);
-  box-shadow: 0px 0px 10px 2px var(--glow);
-}
-
-/* End of hover effects */
-
-/* Images */
-#form-logo {
-  height: 70px;
-  width: 70px;
-}
-
-#profile-picture-default {
-  height: 100px;
-  width: 100px;
-}
-
-#uploaded-picture {
-  margin-top: 4px;
-  height: 130px;
-  width: 130px;
-}
-
-#nav-logo {
-  height: 70px;
-  width: 70px;
-  margin-right: 20px;
-}
-
-/* End of images */
-
-/* Start of Font styling */
-h1#form-heading {
-  font-weight: var(--regular);
-  font-size: clamp(1.5rem, 2.5vw, 1.65rem);
-  margin: 10px 0;
-}
-
-.form-fieldset label {
-  color: var(--gray);
-}
-
-.submit-button {
-  color: var(--white);
-  font-family: var(--font-family);
-  font-size: 14px;
-}
-
-.container a {
-  color: var(--green);
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-
-label {
-  font-size: 13px;
-}
-
-header h1 {
-  font-size: clamp(1.14rem, 2.5vw, 1.5rem);
-  font-weight: var(--regular);
-}
-
-nav > ul > li > a {
-  text-decoration: none;
-  color: var(--gray-text);
-  font-size: 16px;
-}
-
-.ghost-button,
-.solid-button {
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.ghost-button {
-  color: var(--green);
-}
-
-.solid-button {
-  color: var(--white);
-}
-
 /* Start of navbar styling */
 
 header {
@@ -342,6 +211,8 @@ nav > ul > li {
   display: none;
 }
 
+/* End of navbar */
+
 /* Hamburger menu */
 #menu {
   display: none;
@@ -355,8 +226,6 @@ nav > ul > li {
 }
 
 /* End of hamburger menu */
-
-/* End of navbar */
 
 /* Hero section */
 #hero {
@@ -382,6 +251,139 @@ nav > ul > li {
 }
 
 /* End of hero section */
+
+/* Images */
+#form-logo {
+  height: 70px;
+  width: 70px;
+}
+
+#profile-picture-default {
+  height: 100px;
+  width: 100px;
+}
+
+#uploaded-picture {
+  margin-top: 4px;
+  height: 130px;
+  width: 130px;
+}
+
+#nav-logo {
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+/* End of images */
+
+/* Effects */
+
+.form-fieldset .submit-button:hover {
+  background-color: #3a80a0;
+}
+
+.container a:hover {
+  color: #3a80a0;
+}
+
+.form-fieldset input:focus {
+  outline: 1px solid var(--green);
+  box-shadow: 0px 0px 10px 2px var(--glow);
+}
+
+/* End of hover effects */
+
+/* Start of Special classes */
+
+.overlay {
+  border-image-source: linear-gradient(var(--overlay), var(--overlay));
+  border-image-slice: fill 1;
+}
+
+.flex-center-column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.no-border {
+  border: none;
+}
+
+.gap {
+  gap: 14px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* End of special classes */
+
+/* Start of Font styling */
+h1#form-heading {
+  font-weight: var(--regular);
+  font-size: clamp(1.5rem, 2.5vw, 1.65rem);
+  margin: 10px 0;
+}
+
+.form-fieldset label {
+  color: var(--gray);
+}
+
+.submit-button {
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 14px;
+}
+
+.container a {
+  color: var(--green);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+label {
+  font-size: 13px;
+}
+
+header h1 {
+  font-size: clamp(1.14rem, 2.5vw, 1.5rem);
+  font-weight: var(--regular);
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: var(--gray-text);
+  font-size: 16px;
+}
+
+.ghost-button,
+.solid-button {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.ghost-button {
+  color: var(--green);
+}
+
+.solid-button {
+  color: var(--white);
+}
+
+/* End of font styling */
 
 /* Media queries */
 @media (max-width: 647px) {
