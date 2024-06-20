@@ -4,8 +4,8 @@ import HeroImg from "../assets/images/hero-image.svg";
 function Hero() {
   return (
     <section id="hero">
-      <div className="hero-wrapper">
-        <div className="hero-left">
+      <div className="wrapper">
+        <div className="hero left">
           <div className="rtms-container">
             LSPU IPTBM Real Time Monitoring System
           </div>
@@ -20,7 +20,7 @@ function Hero() {
           <Link className="solid-button">Get Started</Link>
           <Link className="ghost-button">Schedule a meeting</Link>
         </div>
-        <div className="hero-right">
+        <div className="hero right">
           <img src={HeroImg} alt="" id="hero-img" />
         </div>
       </div>

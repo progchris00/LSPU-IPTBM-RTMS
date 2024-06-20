@@ -232,21 +232,25 @@ nav > ul > li {
 
 /* Hero section */
 #hero {
-  width: 100%;
   height: 90vh;
+}
+
+#hero,
+#support {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.hero-wrapper {
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
   max-width: 1120px;
 }
 
-.hero-left,
-.hero-right {
+.left,
+.right {
   width: 50%;
 }
 
@@ -266,17 +270,30 @@ nav > ul > li {
   font-size: clamp(0.8rem, 2.5vw, 1rem);
 }
 
-.hero-right {
+.hero.right {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #hero-img {
+  max-width: 500px;
   width: 90%;
 }
 
 /* End of hero section */
+
+/* Support section */
+
+.support .description {
+  margin-bottom: 22px;
+}
+
+#support .wrapper {
+  align-items: center;
+}
+
+/* End of support section */
 
 /* Images */
 #form-logo {
@@ -431,6 +448,7 @@ nav > ul > li > a {
 }
 
 .section-title {
+  margin: 0;
   font-size: 3.3rem;
 }
 
@@ -555,12 +573,20 @@ nav > ul > li > a {
     margin-right: 15px;
   }
 
-  .hero-wrapper {
+  #hero {
+    height: auto;
+  }
+
+  #hero .wrapper {
+    gap: 30px;
+  }
+
+  .wrapper {
     width: 90%;
   }
 
-  .hero-left,
-  .hero-right {
+  .left,
+  .right {
     width: 100%;
   }
 
@@ -570,7 +596,7 @@ nav > ul > li > a {
     margin: 0;
   }
 
-  .hero-description {
+  .description {
     font-size: 1rem;
     margin: 0 0 45px 0;
   }
@@ -581,6 +607,11 @@ nav > ul > li > a {
 
   #hero .solid-button {
     margin-right: 5px;
+  }
+
+  .section-title {
+    margin-bottom: 20px;
+    font-size: 2rem;
   }
 }
 /* End of media queries */
