@@ -410,7 +410,8 @@ nav > ul > li > a {
 }
 
 .hero-title,
-.hero-description {
+.section-title,
+.description {
   font-family: var(--inter);
 }
 
@@ -422,11 +423,22 @@ nav > ul > li > a {
   margin: 0 0 20px 0;
 }
 
-.hero-description {
+.description {
   font-size: 1.3rem;
   color: #9f9a9a;
   line-height: 35px;
   margin: 0 0 48px 0;
+}
+
+.section-title {
+  font-size: 3.3rem;
+}
+
+.call-to-action a {
+  color: var(--green);
+  font-size: 20px;
+  font-weight: var(--semi-bold);
+  text-decoration: none;
 }
 
 /* End of font styling */

@@ -12,7 +12,7 @@ function Hero() {
           <h2 className="hero-title">
             Intellectual Property and Technology Business Management Office
           </h2>
-          <p className="hero-description">
+          <p className="hero description">
             Protects an organization's IP assets and technology initiatives,
             facilitating innovation, technology transfer, and compliance with
             relevant laws.
