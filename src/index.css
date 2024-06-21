@@ -62,20 +62,14 @@ main {
 
 /* Start of container size */
 
-.container.login {
+.container.login,
+.container.forgot,
+.container.reset {
   max-width: 350px;
 }
 
 .container.sign-up {
   max-width: 660px;
-}
-
-.container.forgot {
-  max-width: 350px;
-}
-
-.container.reset {
-  max-width: 350px;
 }
 
 #login-form,
@@ -316,6 +310,7 @@ nav > ul > li {
   max-width: 600px;
   margin: 0 auto 20px;
   text-align: center;
+  padding: 0 20px;
 }
 
 .line-one-wrapper,
