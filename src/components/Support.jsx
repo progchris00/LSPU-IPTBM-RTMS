@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Arrow from "../assets/images/arrow.svg";
 
 function Support() {
   return (
@@ -15,7 +16,7 @@ function Support() {
             development.
           </p>
           <div className="call-to-action">
-            <img src="" alt="" />
+            <img src={Arrow} alt="" />
             <Link className="">Discover more</Link>
           </div>
         </div>
