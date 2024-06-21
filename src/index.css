@@ -286,6 +286,10 @@ nav > ul > li {
 /* End of hero section */
 
 /* Support section */
+#support {
+  min-height: 200px;
+  margin-bottom: 100px;
+}
 
 .support .description {
   margin-bottom: 22px;
@@ -302,6 +306,65 @@ nav > ul > li {
 }
 
 /* End of support section */
+
+/* Start of Carousel */
+#text-carousel {
+  margin-bottom: 20px;
+}
+
+#text-carousel h3 {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.line-one-wrapper,
+.line-two-wrapper {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.carousel-line-one {
+  animation: 23s slide infinite linear;
+}
+
+.carousel-line-two {
+  animation: 40s slide infinite linear;
+}
+
+.carousel-line-one,
+.carousel-line-two {
+  display: flex;
+  gap: 22px;
+  padding: 20px 0 20px 20px;
+}
+
+#text-carousel ul {
+  margin: 0;
+}
+
+#text-carousel ul li {
+  display: block;
+  font-family: var(--inter);
+  font-size: 1.5rem;
+  font-weight: var(--semi-bold);
+  padding: 10px 30px;
+  border-radius: 100px;
+  border: 1px solid #2d617959;
+}
+
+/* Carousel Animation */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* End of Carousel */
 
 /* Images */
 #form-logo {
@@ -456,7 +519,6 @@ nav > ul > li > a {
 }
 
 .section-title {
-  margin: 0;
   font-size: 3.3rem;
 }
 
@@ -624,6 +686,22 @@ nav > ul > li > a {
 
   .call-to-action a {
     font-size: 1rem;
+  }
+
+  #support {
+    margin-bottom: 50px;
+  }
+
+  #text-carousel ul li {
+    padding: 5px 15px;
+    font-size: 1rem;
+  }
+
+  .carousel-line-one,
+  .carousel-line-two {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0 10px 10px;
   }
 }
 /* End of media queries */
