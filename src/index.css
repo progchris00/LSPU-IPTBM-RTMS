@@ -232,7 +232,7 @@ nav > ul > li {
 
 /* Hero section */
 #hero {
-  height: 90vh;
+  min-height: 90vh;
 }
 
 #hero,
