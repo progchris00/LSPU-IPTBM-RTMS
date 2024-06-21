@@ -17,8 +17,10 @@ function Hero() {
             facilitating innovation, technology transfer, and compliance with
             relevant laws.
           </p>
-          <Link className="solid-button">Get Started</Link>
-          <Link className="ghost-button">Schedule a meeting</Link>
+          <div className="hero-buttons">
+            <Link className="solid-button">Get Started</Link>
+            <Link className="ghost-button">Schedule a meeting</Link>
+          </div>
         </div>
         <div className="hero right">
           <img src={HeroImg} alt="" id="hero-img" />

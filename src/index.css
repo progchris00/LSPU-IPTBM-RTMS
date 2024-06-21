@@ -254,8 +254,10 @@ nav > ul > li {
   width: 50%;
 }
 
-#hero .solid-button {
-  margin-right: 20px;
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .rtms-container {
@@ -450,7 +452,7 @@ nav > ul > li > a {
   font-size: 1.3rem;
   color: #9f9a9a;
   line-height: 35px;
-  margin: 0 0 48px 0;
+  margin: 0 0 40px 0;
 }
 
 .section-title {
@@ -604,15 +606,15 @@ nav > ul > li > a {
 
   .description {
     font-size: 1rem;
-    margin: 0 0 45px 0;
+    margin: 0 0 40px 0;
   }
 
   .rtms-container {
     margin: 10px 0 10px 0;
   }
 
-  #hero .solid-button {
-    margin-right: 5px;
+  .hero-buttons {
+    gap: 5px;
   }
 
   .section-title {
