@@ -462,7 +462,7 @@ nav > ul > li > a {
 
 .call-to-action a {
   color: var(--green);
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: var(--semi-bold);
   text-decoration: none;
 }
@@ -620,6 +620,10 @@ nav > ul > li > a {
   .section-title {
     margin-bottom: 20px;
     font-size: 2rem;
+  }
+
+  .call-to-action a {
+    font-size: 1rem;
   }
 }
 /* End of media queries */
