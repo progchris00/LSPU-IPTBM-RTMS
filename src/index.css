@@ -230,7 +230,8 @@ nav > ul > li {
 }
 
 #hero,
-#support {
+#support,
+#empower {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -303,7 +304,7 @@ nav > ul > li {
 
 /* Start of Carousel */
 #text-carousel {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 #text-carousel h3 {
@@ -360,6 +361,73 @@ nav > ul > li {
 }
 
 /* End of Carousel */
+
+/* Start of empower */
+
+#empower .section-title {
+  margin: 0 auto 24px;
+  width: 500px;
+  text-align: center;
+}
+
+.empower-title-container {
+  margin: 0 auto;
+}
+
+#empower .fixed-width {
+  width: 700px;
+  text-align: center;
+}
+
+#empower img {
+  max-width: 650px;
+  width: 100%;
+}
+
+.empower-top {
+  margin-bottom: 40px;
+}
+
+.empower-top,
+.empower-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.empower-title {
+  font-family: var(--inter);
+  font-weight: var(--semi-bold);
+  font-size: 2rem;
+  margin: 15px 0;
+  color: #4a4a4a;
+  margin: 0 0 15px;
+}
+
+.empower-right {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  width: 400px;
+  height: 100%;
+  padding: 40px;
+}
+
+.tag {
+  font-size: 12px;
+  font-family: var(--inter);
+  color: #b5b5b5;
+}
+
+.empower-bottom {
+  flex-direction: row-reverse;
+}
+
+.description {
+  margin: 0;
+}
+
+/* End of empower */
 
 /* Images */
 #form-logo {
