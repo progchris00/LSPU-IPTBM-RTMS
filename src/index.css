@@ -226,7 +226,7 @@ nav > ul > li {
 
 /* Hero section */
 #hero {
-  min-height: 90vh;
+  min-height: 70vh;
 }
 
 #hero,
@@ -234,6 +234,7 @@ nav > ul > li {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .wrapper {
@@ -282,7 +283,6 @@ nav > ul > li {
 /* Support section */
 #support {
   min-height: 200px;
-  margin-bottom: 100px;
 }
 
 .support .description {
@@ -675,7 +675,7 @@ nav > ul > li > a {
   }
 
   .section-title {
-    margin-bottom: 20px;
+    margin: 0 0 20px;
     font-size: 2rem;
   }
 
@@ -683,6 +683,7 @@ nav > ul > li > a {
     font-size: 1rem;
   }
 
+  #hero,
   #support {
     margin-bottom: 50px;
   }
