@@ -835,6 +835,10 @@ nav > ul > li > a {
     font-size: 1.7rem;
   }
 
+  .better-title {
+    font-size: 2rem;
+  }
+
   .better-texts {
     flex-direction: column;
     padding: 0 40px;
