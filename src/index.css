@@ -755,7 +755,9 @@ nav > ul > li > a {
   }
 
   #hero,
-  #support {
+  #support,
+  #text-carousel,
+  #empower {
     margin-bottom: 50px;
   }
 
@@ -774,6 +776,18 @@ nav > ul > li > a {
   #empower .section-title,
   #empower .description {
     text-align: left;
+  }
+
+  .empower-right {
+    padding: 30px;
+  }
+
+  .tag {
+    margin-bottom: 5px;
+  }
+
+  .empower-title {
+    font-size: 1.7rem;
   }
 }
 
