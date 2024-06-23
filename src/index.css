@@ -231,7 +231,8 @@ nav > ul > li {
 
 #hero,
 #support,
-#empower {
+#empower,
+#better {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -365,7 +366,7 @@ nav > ul > li {
 /* Start of empower */
 
 #empower .section-title {
-  margin: 0 auto 24px;
+  margin: 0 auto 20px;
   max-width: 600px;
   text-align: center;
 }
@@ -431,6 +432,30 @@ nav > ul > li {
 }
 
 /* End of empower */
+
+/* Start of better */
+.better-images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.better-image-one {
+  width: 30%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.better-image-two {
+  height: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  width: 65%;
+}
+
+/* End of better */
 
 /* Images */
 #form-logo {
@@ -788,6 +813,21 @@ nav > ul > li > a {
 
   .empower-title {
     font-size: 1.7rem;
+  }
+
+  .better-images {
+    flex-direction: column;
+  }
+
+  #better .wrapper {
+    width: 100%;
+  }
+
+  .better-image-one,
+  .better-image-two {
+    border-radius: 0;
+    width: 100%;
+    max-height: 300px;
   }
 }
 

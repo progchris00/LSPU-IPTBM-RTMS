@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Support from "../components/Support";
 import TextCarousel from "../components/TextCarousel";
 import Empower from "../components/Empower";
+import Better from "../components/Better";
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       <Support />
       <TextCarousel />
       <Empower />
+      <Better />
     </>
   );
 }
