@@ -348,7 +348,7 @@ nav > ul > li {
   font-weight: var(--semi-bold);
   padding: 10px 30px;
   border-radius: 100px;
-  border: 1px solid #2d617959;
+  border: 1px solid var(--green);
 }
 
 /* Carousel Animation */
@@ -434,7 +434,27 @@ nav > ul > li {
 /* End of empower */
 
 /* Start of better */
+.better-title {
+  font-family: var(--inter);
+  font-weight: var(--semi-bold);
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.better-texts {
+  display: flex;
+}
+
+.blue-text {
+  color: var(--green);
+}
+
+#better .description {
+  margin: 0;
+}
+
 .better-images {
+  margin-top: 40px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -442,17 +462,17 @@ nav > ul > li {
 }
 
 .better-image-one {
-  width: 30%;
+  width: 35%;
   object-fit: cover;
-  height: 100%;
+  min-height: 380px;
   border-radius: 16px;
 }
 
 .better-image-two {
-  height: 100%;
+  min-height: 380px;
   border-radius: 16px;
   object-fit: cover;
-  width: 65%;
+  width: 60%;
 }
 
 /* End of better */
@@ -813,6 +833,11 @@ nav > ul > li > a {
 
   .empower-title {
     font-size: 1.7rem;
+  }
+
+  .better-texts {
+    flex-direction: column;
+    padding: 0 40px;
   }
 
   .better-images {
