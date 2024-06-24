@@ -866,7 +866,9 @@ nav > ul > li > a {
   #hero,
   #support,
   #text-carousel,
-  #empower {
+  #empower,
+  #better,
+  #testimony {
     margin-bottom: 50px;
   }
 
