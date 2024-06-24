@@ -30,7 +30,6 @@
 }
 
 body {
-  background-color: var(--background-color);
   font-family: var(--font-family);
   margin: 0;
 }
@@ -143,6 +142,7 @@ fieldset {
 /* Start of navbar styling */
 
 header {
+  background-color: var(--background-color);
   height: 120px;
   width: 100%;
   display: flex;
@@ -226,13 +226,15 @@ nav > ul > li {
 
 /* Hero section */
 #hero {
+  background-color: var(--background-color);
   min-height: 70vh;
 }
 
 #hero,
 #support,
 #empower,
-#better {
+#better,
+#testimony {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -305,6 +307,7 @@ nav > ul > li {
 
 /* Start of Carousel */
 #text-carousel {
+  background-color: var(--background-color);
   margin-bottom: 100px;
 }
 
@@ -476,6 +479,67 @@ nav > ul > li {
 }
 
 /* End of better */
+
+/* Testimony start */
+.testimony-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+
+.testimony-box {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  border: 1px solid #2d617933;
+  box-shadow: 0px 0px 20px 0px #0000001a;
+  min-width: 350px;
+  width: 100%;
+  flex: 2;
+}
+
+.stack-testimony {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  gap: 20px;
+}
+
+.box-four {
+  flex: 1;
+}
+
+.testimony-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.testimony-text .description {
+  margin: 0;
+  width: 50%;
+}
+
+#testimony .section-title {
+  width: 50%;
+  margin: 0;
+}
+
+.witness {
+  font-size: 20px;
+  font-weight: 500px;
+  font-family: var(--inter);
+}
+
+.actual-testimony {
+  color: #9f9a9a;
+  font-family: var(--inter);
+  line-height: 20px;
+}
+
+/* Testimony end */
 
 /* Images */
 #form-logo {
