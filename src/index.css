@@ -540,6 +540,30 @@ nav > ul > li {
 
 /* Testimony end */
 
+/* Start of footer */
+#footer {
+  width: 100%;
+  background-color: var(--green);
+}
+
+#footer span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+#footer a,
+#footer p {
+  color: var(--white);
+  font-family: var(--inter);
+  margin: 0;
+}
+
+/* End of footer */
+
 /* Images */
 #form-logo {
   height: 70px;

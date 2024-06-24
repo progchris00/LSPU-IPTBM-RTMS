@@ -6,6 +6,7 @@ import TextCarousel from "../components/TextCarousel";
 import Empower from "../components/Empower";
 import Better from "../components/Better";
 import Testimony from "../components/Testimony";
+import Footer from "../components/Footer";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <Empower />
       <Better />
       <Testimony />
+      <Footer />
     </>
   );
 }
