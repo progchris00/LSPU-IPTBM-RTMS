@@ -11,7 +11,6 @@ function Testimony() {
             Satisfied Clients, Each Testimonial a Testament.
           </p>
         </div>
-
         <div className="testimony-container">
           <div className="testimony-box">
             <img src={TestimonyPhotoOne} alt="" />
