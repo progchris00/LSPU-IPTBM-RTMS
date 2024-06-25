@@ -6,6 +6,7 @@ import TextCarousel from "../components/TextCarousel";
 import Empower from "../components/Empower";
 import Better from "../components/Better";
 import Testimony from "../components/Testimony";
+import Contacts from "../components/Contacts";
 import Footer from "../components/Footer";
 
 function HomePage() {
@@ -18,6 +19,7 @@ function HomePage() {
       <Empower />
       <Better />
       <Testimony />
+      <Contacts />
       <Footer />
     </>
   );
