@@ -1044,6 +1044,21 @@ nav > ul > li > a {
   #contacts .wrapper {
     gap: 40px;
   }
+
+  #contacts form {
+    gap: 20px;
+  }
+
+  #contacts input,
+  #contacts #message {
+    padding: 14px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  #contacts #message {
+    height: 100px;
+  }
 }
 
 @media (max-width: 1320px) {
