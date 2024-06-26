@@ -614,6 +614,7 @@ nav > ul > li {
   color: var(--white);
   font-family: var(--inter);
   margin: 0;
+  text-align: center;
 }
 
 /* End of footer */
