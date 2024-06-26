@@ -6,7 +6,9 @@ function ResetPasswordPage() {
     <main className="overlay">
       <div className="form-container">
         <div className="reset container flex-center-column">
-          <img src={FormLogo} alt="" id="form-logo" />
+          <Link to="/home">
+            <img src={FormLogo} alt="" id="form-logo" />
+          </Link>
           <h1 id="form-heading">Reset Password</h1>
           <form id="reset-password-form">
             <fieldset className="form-fieldset no-border flex-center-column gap">

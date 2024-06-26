@@ -12,7 +12,9 @@ function SignUpPage() {
       <div className="form-container">
         <div className="sign-up container">
           <div className="flex logo-heading">
-            <img src={FormLogo} alt="" id="form-logo" />
+            <Link to="/home">
+              <img src={FormLogo} alt="" id="form-logo" />
+            </Link>
             <h1 id="form-heading">Create an account</h1>
           </div>
           <form id="sign-up-form">
