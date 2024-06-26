@@ -13,6 +13,7 @@ function Contacts() {
                 name=""
                 id="full-name"
                 placeholder="Full Name"
+                required
               />
             </label>
             <label htmlFor="email">
@@ -21,19 +22,26 @@ function Contacts() {
                 name=""
                 id="email"
                 placeholder="Email Address"
+                required
               />
             </label>
             <label htmlFor="subject">
-              <input type="text" name="" id="subject" placeholder="Subject" />
-            </label>
-            <label htmlFor="message">
               <input
                 type="text"
                 name=""
-                id="message"
-                placeholder="Write a message..."
+                id="subject"
+                placeholder="Subject"
+                required
               />
             </label>
+            <label htmlFor="message">
+              <textarea
+                name=""
+                id="message"
+                placeholder="Write us a message..."
+              ></textarea>
+            </label>
+            <input type="submit" name="" id="submit" />
           </form>
         </div>
       </div>
