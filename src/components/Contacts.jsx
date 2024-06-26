@@ -3,7 +3,27 @@ function Contacts() {
     <section id="contacts">
       <div className="wrapper">
         <div className="contact left">
-          <h3></h3>
+          <div className="text-wrapper">
+            <h3>Get in touch with us</h3>
+            <p>
+              We love to hear from you. Our teams are always here to answer your
+              message.
+            </p>
+          </div>
+          <div className="contact-information">
+            <span>
+              <img src="" alt="" />
+              <p id="contact-address">123 Street, City Country</p>
+            </span>
+            <span>
+              <img src="" alt="" />
+              <p id="contact-number">+234 567890</p>
+            </span>
+            <span>
+              <img src="" alt="" />
+              <p id="contact-email">mail@gmail.com</p>
+            </span>
+          </div>
         </div>
         <div className="contact right">
           <form id="contact-form">
