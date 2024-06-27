@@ -308,6 +308,7 @@ nav > ul > li {
 
 /* Start of Carousel */
 #text-carousel {
+  padding: 40px 0;
   background-color: var(--background-color);
   margin-bottom: 100px;
 }
@@ -490,7 +491,7 @@ nav > ul > li {
 
 .testimony-box {
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: white;
   border-radius: 20px;
   border: 1px solid #2d617933;
   box-shadow: 0px 0px 20px 0px #0000001a;
