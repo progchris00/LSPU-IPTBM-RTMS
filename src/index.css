@@ -677,6 +677,15 @@ nav > ul > li {
 .auth-buttons .solid-button:hover {
   background-color: #3a80a0;
 }
+
+.hero-buttons .solid-button:hover {
+  background-color: #3a80a0;
+}
+
+.hero-buttons .ghost-button:hover {
+  background-color: rgb(240, 240, 240);
+}
+
 /* End of hover effects */
 
 /* Start of Special classes */
