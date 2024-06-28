@@ -670,6 +670,13 @@ nav > ul > li {
   box-shadow: 0px 0px 10px 2px var(--glow);
 }
 
+.auth-buttons .ghost-button:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.auth-buttons .solid-button:hover {
+  background-color: #3a80a0;
+}
 /* End of hover effects */
 
 /* Start of Special classes */
